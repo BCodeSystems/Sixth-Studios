@@ -5,9 +5,9 @@ const services = [
     video: "/services/specialmoments.mp4",
   },
   {
-    title: "Corporate Productions",
-    desc: "Professional coverage for corporate gatherings, executive events, and branded company experiences.",
-    video: "/services/corporate-productions.mp4",
+    title: "Editorial",
+    desc: "Stylized visual storytelling crafted for fashion, beauty, and creative concepts.",
+    video: "/services/editorial.mp4",
   },
   {
     title: "Industry Events",
@@ -55,7 +55,7 @@ export default function Services() {
             Services
           </h2>
           <p className="mt-4 text-sm text-white/70">
-            Specializing in diverse forms of visual storytelling
+          Visual storytelling across events, brands, and culture.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export default function Services() {
 
               {/* Content */}
               <div className="absolute inset-x-0 bottom-0 p-8">
-                <h3 className="font-display text-3xl uppercase tracking-[0.12em]">
+                <h3 className="font-display text-3xl uppercase tracking-[0.12em] transition-transform duration-300 group-hover:-translate-y-1">
                   {card.title}
                 </h3>
 

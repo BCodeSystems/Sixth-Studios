@@ -1,4 +1,4 @@
-import { Mail, Phone, MessageSquare } from "lucide-react";
+import { Mail, Phone, Instagram } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -41,7 +41,7 @@ export default function ContactSection() {
           </a>
 
           {/* CALL */}
-          <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/30 p-8 opacity-90">
+          <a href="tel:+16193849298" className="group relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/30 p-8 transition hover:border-neutral-700">
             <Phone className="h-9 w-9 text-neutral-200" />
             <h3 className="mt-6 text-3xl font-extrabold tracking-tight text-white">
               CALL / TEXT
@@ -50,7 +50,28 @@ export default function ContactSection() {
             <p className="mt-3 text-sm text-neutral-500">
               Call or text for bookings & quick inquiries
             </p>
-          </div>
+          </a>
+
+          {/* INSTAGRAM */}
+          <a
+            href="https://www.instagram.com/sixthstudios.us/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/30 p-8 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] transition hover:border-neutral-700"
+          >
+            <div className="pointer-events-none absolute inset-0 opacity-0 transition group-hover:opacity-100">
+              <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-white/5 blur-3xl" />
+            </div>
+
+            <Instagram className="h-9 w-9 text-neutral-200" />
+            <h3 className="mt-6 text-3xl font-extrabold tracking-tight text-white">
+              INSTAGRAM
+            </h3>
+            <p className="mt-3 text-lg text-neutral-200">@sixthstudios.us</p>
+            <p className="mt-3 text-sm text-neutral-500">
+              Follow or send a DM for collaborations
+            </p>
+          </a>
         </div>
 
         {/* Footer line */}
