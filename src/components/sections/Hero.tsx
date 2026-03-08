@@ -41,11 +41,11 @@ export default function Hero() {
             Cinematic Content. Strategic Impact.
           </h1>
 
-          <p className="mt-6 text-lg text-[rgb(var(--fg))]/90 sm:text-xl">
-            Photography. Videography. Full-Scale Production.
+          <p className="mt-6 text-lg uppercase tracking-[0.12em] text-[rgb(var(--fg))]/80 sm:text-xl">
+            Photography • Videography • Full-Scale Production
           </p>
 
-          <p className="mt-3 text-sm text-[rgb(var(--muted))] sm:text-base">
+          <p className="mt-3 text-sm tracking-[0.08em] text-[rgb(var(--muted))] sm:text-base">
             Working with brands, creators, and organizations.
           </p>
         </div>

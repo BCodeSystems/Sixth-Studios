@@ -16,7 +16,7 @@ const CURATED: CuratedItem[] = [
   { src: "/curated/cinema-panel.jpeg", alt: "Curated photo 05", title: "Industry Panel", tag: "Brand & Media Events" },
   { src: "/curated/brand-detail.jpeg", alt: "Curated photo 06", title: "Brand Detail", tag: "Commercial" },
   { src: "/curated/game-night.jpeg", alt: "Curated photo 07", title: "Game Night", tag: "Sports" },
-  { src: "/curated/conference-networking.jpeg", alt: "Curated photo 08", title: "Conference Networking", tag: "Brand & Media Events" },
+  { src: "/curated/crowd.jpg", alt: "Curated photo 08", title: "Audience Energy", tag: "Live Events" },
   { src: "/curated/western-editorial.jpeg", alt: "Curated photo 09", title: "Western Editorial", tag: "Editorial Portraits" },
   { src: "/curated/luxury-editorial.jpeg", alt: "Curated photo 10", title: "Luxury Editorial", tag: "Editorial" },
   { src: "/curated/moody-editorial.jpeg", alt: "Curated photo 11", title: "Moody Editorial", tag: "Editorial Portraits" },
