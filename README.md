@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sixth Studios – Photography Portfolio Platform
 
-## Getting Started
+A custom-built, media-focused web application designed to showcase cinematic photography and video work while supporting service-based business goals through a clean, modern interface.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was developed for a photography brand to create a premium digital presence that highlights visual content without sacrificing performance. The focus was on balancing high-quality media with fast load times, usability, and clear conversion paths.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js (App Router), React, TypeScript  
+- **Styling:** Tailwind CSS  
+- **Deployment:** Vercel  
+- **Analytics:** Microsoft Clarity  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- Cinematic video integration across hero, services, and about sections  
+- Curated image gallery system organized by category  
+- Service-based sections with supporting media  
+- Fully responsive, mobile-first design  
+- Performance-focused structure for handling media-heavy content  
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `public/curated` → image galleries  
+- `public/services` → service-related video content  
+- `public/` → videos, images, and static assets  
+- `src/app` → application routes (Next.js App Router)  
+- `src/components` → reusable UI components  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Architecture
 
-## Deploy on Vercel
+- Built with Next.js App Router for modern routing and performance  
+- Component-based architecture for reusability and scalability  
+- Media assets structured for efficient loading and organization  
+- Designed with performance considerations for large media files  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Challenges & Solutions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Handling large video files while maintaining performance**  
+→ Structured asset organization and optimized media formats  
+
+**Maintaining a clean UI with heavy visual content**  
+→ Consistent layout, spacing, and minimal design approach  
+
+**Balancing portfolio aesthetics with business goals**  
+→ Integrated service sections and clear calls-to-action  
+
+## Key Learnings
+
+- Structuring media-heavy applications for scalability  
+- Balancing performance with high-quality visuals  
+- Building modular UI systems using Tailwind CSS  
+- Deploying and optimizing applications with Vercel  
+
+## Future Improvements
+
+- Add filtering and categorization to the gallery  
+- Improve video loading and performance strategies  
+- Integrate a CMS for easier content updates  
+- Enhance SEO for service-based pages  
+
+## Author
+
+Developed by BCode Systems
